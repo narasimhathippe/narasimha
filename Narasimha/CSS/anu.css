@@ -1,0 +1,163 @@
+*{
+    border:0;
+    padding:0;
+}
+div{
+    width: 1500px;
+    height: 400px;
+    text-align: left;
+    position: relative;
+
+
+}
+span{
+    
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    bottom: 75%;
+}
+
+span:nth-of-type(odd)
+{
+    background-color:rgb(30,217,152);
+    border: 2px solid black;
+
+}
+span:nth-of-type(even)
+{
+    background-color:  rgb(221,214,152);
+    border: 2px solid black;
+
+}
+span:nth-of-type(16)
+{
+    background-image: url(/Images/sunflower-1627193__340.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    border: 0px;
+    height: 210px;
+    width: 210px;
+    animation: snake 3s -4.5s ease-in-out infinite;
+
+}
+span:nth-of-type(15)
+{
+    height: 130px;
+    width: 130px;
+    animation: snake 3s -4.5s ease-in-out infinite;
+}
+span:nth-of-type(14)
+{
+    height: 120px;
+    width: 120px;
+    animation: snake 3s -3.9s ease-in-out infinite;
+}
+
+span:nth-of-type(13)
+{
+    height: 110px;
+    width: 110px;
+    animation: snake 3s -3.6s ease-in-out infinite;
+}
+
+span:nth-of-type(12)
+{
+    height: 115px;
+    width: 115px;
+    animation: snake 3s -3.3s ease-in-out infinite;
+}
+
+span:nth-of-type(11)
+{
+    height: 100px;
+    width: 100px;
+    animation: snake 3s -3s ease-in-out infinite;
+}
+span:nth-of-type(10)
+{
+        height: 130px;
+        width: 130px;
+        animation: snake 3s -2.7s ease-in-out infinite;
+    }
+    
+    span:nth-of-type(9)
+{
+    height: 90px;
+    width: 90px;
+    animation: snake 3s -2.4s ease-in-out infinite;
+}
+
+span:nth-of-type(8)
+{
+    height: 80px;
+    width: 80px;
+    animation: snake 3s -2.1s ease-in-out infinite;
+}
+
+span:nth-of-type(7)
+{
+    height: 70px;
+    width: 70px;
+    animation: snake 3s -1.8s ease-in-out infinite;
+}
+span:nth-of-type(6)
+{
+    height: 60px;
+    width: 60px;
+    animation: snake 3s -1.5s ease-in-out infinite;
+}
+span:nth-of-type(5)
+{
+    height: 50px;
+    width: 50px;
+    animation: snake 3s -1.2s ease-in-out infinite;
+}
+span:nth-of-type(4)
+{
+    height: 40px;
+    width: 40px;
+    animation: snake 3s -0.9s ease-in-out infinite;
+}
+span:nth-of-type(3)
+{
+    height: 30px;
+    width: 30px;
+    animation: snake 3s -0.6s ease-in-out infinite;
+}
+span:nth-of-type(2)
+{
+    height: 20px;
+    width: 20px;
+    animation: snake 3s -0.3s ease-in-out infinite;
+}
+span:nth-of-type(1)
+{
+    height: 10px;
+    width: 10px;
+    animation: snake 3s  ease-in-out infinite;
+}
+
+@keyframes snake
+{
+    0%
+{
+top:75%;
+}
+50%
+{
+    top: 25%;
+}
+100%
+{
+    top: 75%;
+
+}
+}
+
+
+
+

@@ -1,0 +1,93 @@
+ 
+#parent{
+    width: 700px;
+    height: 450px;
+
+    border: 45px groove blue;
+    background-color: aqua;
+    border: 4px outset red;
+}
+#child{
+    width: 100px;
+    height: 100px;
+    background-position: top left;
+    border: 10px groove blue;
+    background:no-repeat;
+    transition: all 3s ease-in-out;
+}
+#child:hover{
+    background-color: blue ;
+   transform: rotate(-360deg);
+    transform: skew(-180deg,-360deg);
+    /* transform: skewX(90deg);
+    transform: scaleY(270deg);
+    transform: scale(1,2);
+    transform: scaleX(2); */
+    /* transform: scaleY(3);*/ 
+  /*transform: translate(10px,150px);
+   transform: translateX(200px);
+    transform:translateY(300px);*/
+
+    
+} 
+ #child1{
+
+    height: 100px;
+    width: 100px;
+    background-position: top center;
+    border: 10px groove gold;
+    background-image:url(../Images/sunflower-1627193__340.jpg);
+    background:no-repeat;
+    transition: all 5s ease-in-out;
+
+}
+#child1:hover{
+    background-color: blue ;
+   transform: rotate(-360deg);
+    transform: skew(-180deg,-360deg);
+}
+#child2{
+    height: 100px;
+    width: 100px;
+    margin: 2px;
+    background-size: 10px;
+    background-image:url(../Images/unnamed.png);
+    border: 10px groove green;
+    background: no-repeat;
+    transition: all 10s ease-in-out;
+}
+#child2:hover{
+    background-color:violet ;
+   transform: rotate(360deg);
+    transform: skew(180deg,360deg);
+}
+#child3{
+    height: 100px;
+    width: 100px; 
+    background-size: 10px;
+    background-image:url(../Images/abd.webp);
+    border: 10px groove red;
+    background:no-repeat;
+    transition: all 15s ease-in-out;
+}
+#child3:hover{
+    background-color: orange ;
+   transform: rotate(-360deg);
+    transform: skew(-180deg,-360deg);
+}
+#child4{
+    height: 100px;
+    width: 100px;
+    background-size: 10px;
+    background-image:url(../Images/sunflower-1627193__340.jpg);
+    border: 10px groove orange;
+    background: no-repeat;
+    bottom: left;
+    transition: all 20s ease-in-out;
+    background-position: bottom right;
+}
+#child4:hover{
+    background-color: gold ;
+   transform: rotate(-360deg);
+    transform: skew(-180deg,-360deg);
+} 

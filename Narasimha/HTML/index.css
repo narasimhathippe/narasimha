@@ -1,0 +1,60 @@
+#rr{
+    width: 800px;
+    height: 600px;
+    border: 45px groove red;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+#demo1{
+height: 100px;
+width: 100px;
+border: 15px groove yellow;
+background-image: url(../Images/sunflower-1627193__340.jpg);
+background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+#demo2{
+    height: 100px;
+    width: 100px;
+    border: 15px groove green;
+    background-image: url(../Images/virat.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+#demo3{
+    height: 100px;
+    width: 100px;
+    border: 15px groove blueviolet;
+    background-image: url(../Images/360_F_290814633_73uOwyE7FsckTA6AoJEvEIDXXG3Ni6Xg.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+
+}
+
+#demo4{
+    height: 100px;
+    width: 100px;
+    background-position: top center;
+    border: 15px groove blueviolet;
+    background-image: url(../Images/abd.webp);
+    background-repeat: no-repeat;
+    background-size: 100px;
+
+}
+#demo5{
+    height: 100px;
+    width: 100px;
+    border: 15px groove blue;
+    background-image: url(../Images/sudeep-wallpaper_1397730792120.jpg);
+    background-size: 180px;
+}
+#demo6{
+    width: 200px;
+    height:140px;
+    float: top-center;
+    background-image: url(../Images/sunflower-1627193__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 180px;
+}

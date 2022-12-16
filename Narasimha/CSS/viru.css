@@ -1,0 +1,20 @@
+#demo{
+    height: 400px;
+    width:  700px;
+    background-color: blue;
+    border: 5px solid aqua;
+    border-color: red;
+    border-radius: 3pc;
+    transition: width 3s;
+    transition-delay:width 5s;
+}
+
+
+ #demo:hover{
+    /* height: 300px; */
+        width: 400px; 
+    background-color: gold;
+}
+#demo{
+    transition-timing-function: ease-in;
+}

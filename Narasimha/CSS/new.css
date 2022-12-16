@@ -1,0 +1,61 @@
+.S{
+width: 700px;
+height: 800px;
+margin: 60% 40% 0% 35%;
+padding: 2px;
+border: 5px solid rgba(50,20,20,0.342);
+background-color: rgb(253,253,253);
+border-radius: 20px;
+background-color: aqua;
+}
+
+.a{
+    height: 180px;
+    width: 160px; 
+    margin: 54% 35% 54% 35% ;
+    border:5px  solid rgb(253, 253,253,);
+    background-image: url(../Images/sunflower-1627193__340.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.b{
+height: 180px;
+width: 100px; 
+margin:  -126.5%  0% ;
+border:5px  solid rgb(253,253,253 );
+background-image: url(../Images/sudeep-wallpaper_1397730792120.jpg);
+background-position: center;
+background-size: cover;
+border-radius: 20px;
+}
+.c{
+    height: 180px;
+    width: 100px; 
+    margin: 80% 0% 0% 72.5% ;
+    background-image: url(../Images/virat.jpg);
+    border: 5px solid rgb(253,253,253);
+    background-position:center;
+    background-size: cover;
+    border-radius: 20px;
+}
+.d{
+    height: 150px;
+width: 130px; 
+margin:  62.5% 20% 0% 0% ;
+border: 5px  solid rgba(253,253,253);
+background-image: url(../Images/unnamed.png);
+background-position: center;
+background-size: cover;
+border-radius: 20px;
+}
+.e{
+    height: 180px;
+width: 140px; 
+margin: -27.5% 20% 0% 72.5% ;
+border:5px  solid rgb(230,230,230);
+background-image: url(../Images/images.jpg);
+background-position: center;
+background-size: cover;
+border-radius: 20px;
+}
